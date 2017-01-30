@@ -4,25 +4,31 @@
         color: rgb(164, 39, 152);
     }
     #menu li {
-        width: 45%;
-        padding-top: 1em;
+        border: none;
     }
     main {
-        max-width: 100%;
+        width: 100%;
     }
     article {
-        width: 50%;
+        width: 40%;
+        display: inline-block;
+        margin: 10px;
     }
     aside {
         float: left;
         max-width: 100%;
     }
     img {
-        float: left;
+        float: none;
+        margin: 2px;
+        width: 100%;
     }
     p {
-        height:200px;
-        padding-left: 1em;
-        margin-left: 200px;
+        margin-left: 0;
+        width: 100%;
+        padding-left: 0;
+    }
+    aside {
+        display: none;
     }
 }

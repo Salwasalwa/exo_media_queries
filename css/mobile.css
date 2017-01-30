@@ -6,6 +6,7 @@
     #menu li {
         width: 100%;
         padding-top: 1em;
+        border: none;
     }
     main {
         max-width: 100%;
@@ -13,13 +14,14 @@
     aside {
         float: left;
         max-width: 100%;
+        margin-top: 0;
     }
     img,
+    p
     {
         float:none;
         margin-left: 0;
         height: 100%;
         width: 100%;
     }
-    p
 }

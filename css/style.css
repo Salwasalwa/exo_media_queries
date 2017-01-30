@@ -5,9 +5,11 @@ body {
 
 
 #menu li {
+    box-sizing: border-box;
     display: inline-block;
     list-style-type: none;
-    margin-left: 2em;
+    margin-left: 1em;
+    border: 2px solid rgb(73, 75, 72);
 }
 
 main {
@@ -28,6 +30,7 @@ aside {
     display: inline-block;
     width: 20%;
     vertical-align: top;
+    margin-top: 3em;
 }
 #lateral li {
     list-style-type: none;
