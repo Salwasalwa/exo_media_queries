@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+
+#menu li {
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 2em;
+}
+
+main {
+    display: inline-block;
+    width: 70%;
+    padding: 2em;
+}
+
+aside {
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+}
+#lateral li {
+    list-style-type: none;
+    margin: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(73, 75, 72);
+}
+
+a:hover {
+    color: rgb(149, 110, 8)
+}
+
+@media (max-width : 400px) {
+    body {
+        background-color: rgb(227, 103, 33);
+        color: rgb(5, 94, 70);
+    }
+    #menu li {
+        width: 100%;
+        padding-top: 1em;
+    }
+    main {
+        max-width: 100%;
+    }
+    aside {
+        float: left;
+        max-width: 100%;
+    }
+}
+
+@media 
