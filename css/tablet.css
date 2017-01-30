@@ -1,0 +1,28 @@
+@media screen and (min-width: 400px) and (max-width: 900px) {
+    body {
+        background-color: rgb(44, 204, 152);
+        color: rgb(164, 39, 152);
+    }
+    #menu li {
+        width: 45%;
+        padding-top: 1em;
+    }
+    main {
+        max-width: 100%;
+    }
+    article {
+        width: 50%;
+    }
+    aside {
+        float: left;
+        max-width: 100%;
+    }
+    img {
+        float: left;
+    }
+    p {
+        height:200px;
+        padding-left: 1em;
+        margin-left: 200px;
+    }
+}

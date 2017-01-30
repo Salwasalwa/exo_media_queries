@@ -15,10 +15,18 @@ main {
     width: 70%;
     padding: 2em;
 }
+img {
+    float: left;
+}
+p {
+    height:200px;
+    padding-left: 1em;
+    margin-left: 200px;
+}
 
 aside {
     display: inline-block;
-    width: 25%;
+    width: 20%;
     vertical-align: top;
 }
 #lateral li {
@@ -34,7 +42,7 @@ a {
 a:hover {
     color: rgb(149, 110, 8)
 }
-
+/*
 @media (max-width : 400px) {
     body {
         background-color: rgb(227, 103, 33);
@@ -52,5 +60,4 @@ a:hover {
         max-width: 100%;
     }
 }
-
-@media 
+*/
